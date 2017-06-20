@@ -14,7 +14,7 @@ Naive, brute force solutions are often too slow for practical use but they're a 
 
 Once you have a brute force implementation you can use that to verify that any improvements you come up with are correct. 
 
-And if you only work with small datasets, then a brute force approach may actually be good enough on its own. Don't fall into the trap of premature optimization!
+And if you only work with small datasets, then a brute force approach may actually be good enough on its own. **Don't fall into the trap of premature optimization!**
 
 ### Divide and conquer
 

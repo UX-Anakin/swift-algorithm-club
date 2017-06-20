@@ -2,7 +2,8 @@ import Foundation
 import XCTest
 
 class StackTest: XCTestCase {
-  func testEmpty() {
+  
+    func testEmpty() {
     var stack = Stack<Int>()
     XCTAssertTrue(stack.isEmpty)
     XCTAssertEqual(stack.count, 0)
