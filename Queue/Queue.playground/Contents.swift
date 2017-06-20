@@ -11,7 +11,11 @@
   In this implementation, enqueuing is an O(1) operation, dequeuing is O(n).
 */
 
+import Foundation
+import Darwin
+
 public struct Queue<T> {
+    
   fileprivate var array = [T]()
 
   public var isEmpty: Bool {
@@ -58,3 +62,25 @@ queueOfNames.front
 // Check to see if the queue is empty.
 // Returns "false" since the queue still has elements in it.
 queueOfNames.isEmpty
+
+// To test this in a playground
+var q = Queue<String>()
+q.array
+
+q.enqueue("Ada")
+q.enqueue("Steve")
+q.enqueue("Tim")
+q.array
+q.count
+
+q.dequeue()
+q.array
+q.count
+
+q.dequeue()
+q.array
+q.count
+
+q.enqueue("Grace")
+q.array
+q.count

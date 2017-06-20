@@ -1743,6 +1743,9 @@
       location = "group:Queue"
       name = "Queue">
       <FileRef
+         location = "group:README.markdown">
+      </FileRef>
+      <FileRef
          location = "group:Queue-Optimized.swift">
       </FileRef>
       <FileRef
@@ -1750,9 +1753,6 @@
       </FileRef>
       <FileRef
          location = "group:Queue.playground">
-      </FileRef>
-      <FileRef
-         location = "group:README.markdown">
       </FileRef>
       <Group
          location = "group:Tests"
@@ -1764,7 +1764,7 @@
             location = "group:QueueTests.swift">
          </FileRef>
          <FileRef
-            location = "group:Tests.xcodeproj">
+            location = "group:/Users/chyiyaqing/Developer/swift/swift-algorithm-club/Queue/Tests/QueueTests.xcodeproj">
          </FileRef>
       </Group>
    </Group>

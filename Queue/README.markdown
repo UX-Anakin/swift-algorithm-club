@@ -1,6 +1,6 @@
 # Queue
 
-A queue is a list where you can only insert new items at the back and remove items from the front. This ensures that the first item you enqueue is also the first item you dequeue. First come, first serve!
+**A queue is a list where you can only insert new items at the back and remove items from the front.** This ensures that the first item you enqueue is also the first item you dequeue. **First come, first leave! First in, Fist Out! FIFO**
 
 Why would you need this? Well, in many algorithms you want to add objects to a temporary list and pull them off this list later. Often the order in which you add and remove these objects matters.
 
